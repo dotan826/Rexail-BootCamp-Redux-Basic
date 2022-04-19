@@ -1,0 +1,11 @@
+
+export const FIRST_COUNTER_INCREMENT = "FIRST_COUNTER_INCREMENT";
+export const SECOND_COUNTER_INCREMENT = "SECOND_COUNTER_INCREMENT";
+export const THIRD_COUNTER_INCREMENT = "THIRD_COUNTER_INCREMENT";
+
+
+
+export interface Action {
+    type: string;
+}
+
